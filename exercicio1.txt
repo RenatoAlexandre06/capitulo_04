@@ -1,0 +1,11 @@
+import 'dart:io';
+
+main(){
+  print("Digite o primeiro valor decimal desejado:");
+  double? primeirovalor = double.parse(stdin.readLineSync()!);
+  print("Digite o segundo valor decimal desejado:");
+  double? segundovalor = double.parse(stdin.readLineSync()!);
+
+  print("O valor final é de: ${primeirovalor/segundovalor}");
+
+}
